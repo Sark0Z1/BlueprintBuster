@@ -1,0 +1,26 @@
+{
+    "FileVersion": 3,
+    "Version": 1,
+    "VersionName": "1.0.0",
+    "FriendlyName": "BlueprintBuster",
+    "Description": "Blueprint decompilation analyzer — dumps SCS hierarchy, CDO defaults, and execution graph to JSON for offline C++ translation.",
+    "Category": "Editor",
+    "CreatedBy": "Shumov Sergey",
+    "CreatedByURL": "https://github.com/Sark0Z1",
+    "DocsURL": "",
+    "MarketplaceURL": "",
+    "SupportURL": "",
+    "EngineVersion": "5.7.0",
+    "EnabledByDefault": false,
+    "CanContainContent": false,
+    "IsBetaVersion": true,
+    "Installed": false,
+    "Modules": [
+        {
+            "Name": "BlueprintBuster",
+            "Type": "Editor",
+            "LoadingPhase": "PreDefault",
+            "PlatformAllowList": [ "Win64" ]
+        }
+    ]
+}
