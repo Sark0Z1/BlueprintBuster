@@ -140,7 +140,7 @@ After writing the last JSON file, the Commandlet triggers **immediate hardware p
 
 ## 3. Generated C++ Code Standards
 
-The Python translator `bp_translator.py` produces code that strictly conforms to the project's internal quality standards (TDD-06). Any deviation from the rules below is considered a translator defect, not a reason to manually fix the template.
+The Python translator `bp_translator.py` produces code that strictly conforms to the project's internal quality standards. Any deviation from the rules below is considered a translator defect, not a reason to manually fix the template.
 
 ### 3.1. Zero Raw Pointers
 
@@ -212,7 +212,7 @@ Tick is enabled **only** if `ReceiveTick` / `Event Tick` node is detected in the
 
 ### 3.5. Legacy Restriction
 
-The translator rejects generation of classes whose name contains a forbidden substring (e.g. `QC`), exiting with a diagnostic message and return code `2`. This prevents legacy abbreviations from Blueprint asset names entering the native codebase.
+The translator rejects generation of classes whose name contains a forbidden substring, exiting with a diagnostic message and return code `2`. This prevents legacy abbreviations from Blueprint asset names entering the native codebase.
 
 ---
 
@@ -494,7 +494,7 @@ Blueprint .uasset
 
 ## 3. Стандарты генерируемого C++ кода
 
-Python-транслятор `bp_translator.py` производит код, жёстко соответствующий внутренним стандартам качества проекта (TDD-06). Отступление от любого из правил ниже считается дефектом транслятора, а не поводом для ручного исправления шаблона.
+Python-транслятор `bp_translator.py` производит код, жёстко соответствующий внутренним стандартам качества проекта. Отступление от любого из правил ниже считается дефектом транслятора, а не поводом для ручного исправления шаблона.
 
 ### 3.1. Zero Raw Pointers
 
@@ -566,7 +566,7 @@ PrimaryComponentTick.bCanEverTick = false;
 
 ### 3.5. Legacy Restriction
 
-Транслятор отклоняет генерацию классов, в имени которых содержится запрещённый суффикс (например, `QC`), завершая работу с диагностическим сообщением и кодом возврата `2`. Это исключает попадание устаревших аббревиатур из имён Blueprint-ассетов в нативную кодовую базу.
+Транслятор отклоняет генерацию классов, в имени которых содержится запрещённый суффикс, завершая работу с диагностическим сообщением и кодом возврата `2`. Это исключает попадание устаревших аббревиатур из имён Blueprint-ассетов в нативную кодовую базу.
 
 ---
 
